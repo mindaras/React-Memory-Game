@@ -1,0 +1,11 @@
+.boxes-list
+{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}

@@ -1,0 +1,42 @@
+.finished
+{
+  margin-top: 40px;
+  opacity: 0;
+  transform:translateY(15px);
+  animation: fadeIn ease .6s forwards;
+}
+.finished-title
+{
+  font-size: 28px;
+  text-align: center;
+}
+.retry
+{
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@keyframes fadeIn
+{
+  0%
+  {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
